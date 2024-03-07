@@ -36,6 +36,19 @@ textScore.textContent = TextoPuntaje;
 //     event.preventDefault();
 // });
 
+// Desactivar el comportamiento de zoom táctil en Safari
+document.addEventListener('gesturestart', function (e) {
+    e.preventDefault();
+});
+
+// También puedes intentar el siguiente código para versiones más recientes de Safari
+document.addEventListener('touchstart', function (event) {
+    if (event.touches.length > 1) {
+        event.preventDefault();
+    }
+}, { passive: false });
+
+
 function resize(){
     if(innerWidth<600){
       
