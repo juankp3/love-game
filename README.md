@@ -1,2 +1,2 @@
 # love-game
-love-game html css and js
+https://juankp3.github.io/love-game/index.html
