@@ -15,6 +15,7 @@ const objt = document.getElementById("objetivo");
 const menu = document.querySelector(".menu");
 const btnPlay = document.getElementById("btn-play");
 const canvas = document.getElementById("canvas");
+canvas.style.touchAction = 'none';
 const ctx = canvas.getContext("2d");
 const background = new Image();
 background.src = 'background.jpg';
@@ -33,13 +34,11 @@ document.addEventListener('contextmenu', function(event) {
     event.preventDefault();
 });
 
-document.addEventListener('gesturestart', function (e) {
-    console.log('gesturestart')
+canvas.addEventListener('gesturestart', function (e) {
     e.preventDefault();
 });
 
-document.addEventListener('touchstart', function (event) {
-    console.log('touchstart')
+canvas.addEventListener('touchstart', function (event) {
     if (event.touches.length > 1) {
         event.preventDefault();
     }
