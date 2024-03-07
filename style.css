@@ -132,6 +132,10 @@ input:visited {
 .advertising a{
     color: #FFF
 }
+
+*{
+     touch-action: manipulation;
+}
 .disable-dbl-tap-zoom {
     touch-action: manipulation;
 }
