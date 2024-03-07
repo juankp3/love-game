@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="viewport" content="width=device-width">
     <meta name="description" content="Juan debe de mandar muchos corazones para enamorar a Lesly" />
     <title>Lesly & Juan</title>
     <link rel="stylesheet" href="style.css?v=1">
@@ -25,12 +23,12 @@
         </div>
         <canvas id="canvas"></canvas>
         <div class="controls">
-            <div class="arrows">
+            <div class="arrows disable-dbl-tap-zoom">
                 <ion-icon id="arrow-left" name="arrow-back-circle-outline"></ion-icon>
                 <ion-icon id="arrow-right" name="arrow-forward-circle-outline"></ion-icon>
             </div>
-            <div class="heart">
-                <ion-icon id="heart-icon" name="heart-circle-outline"></ion-icon>
+            <div class="heart disable-dbl-tap-zoom">
+                <ion-icon id="heart-icon" name="heart-circle-outline" class="disable-dbl-tap-zoom"></ion-icon>
             </div>
         </div>
         <div class="instructions">

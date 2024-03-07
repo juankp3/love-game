@@ -132,6 +132,9 @@ input:visited {
 .advertising a{
     color: #FFF
 }
+.disable-dbl-tap-zoom {
+    touch-action: manipulation;
+}
 
 @media (max-width: 600px) {
     .controls {

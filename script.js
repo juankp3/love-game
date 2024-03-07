@@ -4,9 +4,6 @@ let objetivo = 30;
 let TextoPuntaje = "Lesly Enamoradas: ";
 let TextoVictoria = "¡VICTORIA!";
 let TextoDerrota = "DERROTA";
-//
-
-//Youtube: https://www.youtube.com/watch?v=Oat0bMq5NGc
 
 const heart = document.getElementById("heart-icon");
 const arrowLeft = document.getElementById("arrow-left");
@@ -51,7 +48,6 @@ document.addEventListener('touchstart', function (event) {
 
 function resize(){
     if(innerWidth<600){
-      
         canvas.width = 400;
         canvas.height = 480;
         if(innerWidth<400){
@@ -61,7 +57,6 @@ function resize(){
     }else{
         canvas.width = 550;
         canvas.height = 600;
-
     }
 }
 window.addEventListener("resize",()=>{
@@ -342,7 +337,7 @@ function update(){
     }
     
     if(play){
-       updateObjects();
+        updateObjects();
     }
 
     if(score==objetivo || death){
