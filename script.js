@@ -30,9 +30,9 @@ let score = 0;
 objt.textContent = objetivo;
 textScore.textContent = TextoPuntaje;
 
-document.addEventListener('contextmenu', function(event) {
-    event.preventDefault();
-});
+// document.addEventListener('contextmenu', function(event) {
+//     event.preventDefault();
+// });
 
 canvas.addEventListener('gesturestart', function (e) {
     e.preventDefault();
