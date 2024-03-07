@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="Juan debe de mandar muchos corazones para enamorar a Lesly" />
     <title>Lesly & Juan</title>
-    <link rel="stylesheet" href="style.css?v=3">
+    <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
     <div class="container">
@@ -24,8 +24,15 @@
         <canvas id="canvas"></canvas>
         <div class="controls">
             <div class="arrows disable-dbl-tap-zoom">
-                <ion-icon id="arrow-left" name="arrow-back-circle-outline"></ion-icon>
-                <ion-icon id="arrow-right" name="arrow-forward-circle-outline"></ion-icon>
+                <button id="arrow-left">
+                    <ion-icon  name="arrow-back-circle-outline"></ion-icon>
+                </button>
+
+                <button id="arrow-right">
+                    <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+                </button>
+
+                <!-- <ion-icon id="arrow-right" name="arrow-forward-circle-outline"></ion-icon> -->
             </div>
             <button class="heart">
                 <ion-icon id="heart-icon" name="heart-circle-outline" class="disable-dbl-tap-zoom"></ion-icon>
@@ -50,6 +57,6 @@
     
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="script.js?v=3"></script>
+    <script src="script.js?v=4"></script>
 </body>
 </html>

@@ -140,6 +140,11 @@ input:visited {
     touch-action: manipulation;
 }
 
+button{
+    background: no-repeat;
+    border: 0;
+}
+
 @media (max-width: 600px) {
     .controls {
         display: flex;
