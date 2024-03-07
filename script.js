@@ -32,9 +32,9 @@ let score = 0;
 objt.textContent = objetivo;
 textScore.textContent = TextoPuntaje;
 
-// document.addEventListener('contextmenu', function(event) {
-//     event.preventDefault();
-// });
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+});
 
 // Desactivar el comportamiento de zoom táctil en Safari
 document.addEventListener('gesturestart', function (e) {
