@@ -130,7 +130,8 @@ input:visited {
 }
 
 .advertising a{
-    color: #FFF
+    color: #FFF;
+    font-size: 14px;
 }
 
 *{
